@@ -66,9 +66,12 @@ class Game{
                     
                          textSize(25);
                          fill("white");
-                         text("Player 1 :" +allPlayers.player1.score,50,50);
-                        text("Player 2 :" + allPlayers.player2.score, 50, 100);
-                 
+                        
+                     
+                     
+                     
+                     
+                     
                  }
                 
                 
@@ -108,18 +111,12 @@ class Game{
                           if (fruitGroup.get(i).isTouching(players)) {
                               fruitGroup.get(i).destroy();
                               
-                               // calculate the score. 
-                                //player.score = 1;
-                                //player.score = player.score - 1;
-                                player.score = player.score + 1;
-                                //score = score + 1;
-
-                                //Update the score in the database
-
-                                //score.update()
-                                //player.score.update()
-                                player.update();
-                                //update();
+                             
+                              
+                              
+                              
+                              
+                              
                                     
                           }
                           
